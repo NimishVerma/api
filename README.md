@@ -7,11 +7,19 @@
   Current popular solutions costs alot of money and only works with their own
 client. ChessDB wants to provide a client agnostic solution that's easily
 implementable.
+#### Setup
+For setting up ChessDB API using Docker, the following sets of command have to be executed (Make sure you have already installed Docker Engine and Docker Compose) :
+```shell
+git clone https://github.com/chessdb.api
+cd api
+cp .example.env .env
+docker-compose up -d
+```
 
 #### Documentation
 Checkout out or [ReDoc](https://api.chessdb.dev/redoc) documentation, or
 [Swagger UI](https://api.chessdb.dev/redoc) to try out the API in action.
-
+    
 
 
 #### Contributing
